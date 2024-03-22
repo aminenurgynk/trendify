@@ -2,9 +2,10 @@ import { ActionTypes } from "../constants/actionTypes";
 import * as apiService from '../../services/apiService';
 
 
-export const fetchProducts = () => async (dispatch) => {
+export const fetchProducts = (category = '') => async (dispatch) => {
   try {
-    const products = await apiService.fetchProducts();
+    const endpoint = category ? `/products/category/${category}` : '/products';
+    const products = await apiService.fetchProducts(endpoint);
     dispatch(setProducts(products));
   } catch (error) {
     console.error("Error fetching products:", error);
