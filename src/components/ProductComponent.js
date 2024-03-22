@@ -1,8 +1,6 @@
-import React from 'react'
-import { useSelector } from 'react-redux';
+import React from 'react';
 
 const ProductComponent = () => {
-    const products = useSelector((state) => state); 
   return (
     <div>ProductComponent</div>
   )
