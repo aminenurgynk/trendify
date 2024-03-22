@@ -51,7 +51,6 @@ const Navbar = () => {
         >
           <MenuItem onClick={handleClose}>Home</MenuItem>
           <MenuItem onClick={handleClose}>Products</MenuItem>
-          <MenuItem onClick={handleClose}>Categories</MenuItem>
         </Menu>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Trendify
