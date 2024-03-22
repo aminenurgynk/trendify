@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://fake-store-api-2no73ornoa-uc.a.run.app/api';
+const API_BASE_URL = 'https://fakestoreapi.com';
 
 export const fetchProducts = async () => {
   try {
-    const response = await axios.get(`${API_BASE_URL}/products/all`);
+    const response = await axios.get(`${API_BASE_URL}/products`);
     return response.data;
   } catch (error) {
     console.error('Error fetching products:', error);
@@ -24,7 +24,7 @@ export const fetchProductDetails = async (productId) => {
 
 export const fetchCategories = async () => {
   try {
-    const response = await axios.get(`${API_BASE_URL}/categories/all`);
+    const response = await axios.get(`${API_BASE_URL}/products/categories`);
     return response.data;
   } catch (error) {
     console.error('Error fetching categories:', error);
