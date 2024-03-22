@@ -8,7 +8,6 @@ const About = () => {
 
   return (
     <>
-      {/* AppBar komponentinin yüksekliğine eşit boşluk ekleyin */}
       <div style={{ ...theme.mixins.toolbar }} />
       <Container sx={{ my: 5 }}>
         <Typography variant="h4" gutterBottom>
