@@ -2,7 +2,11 @@
     
     const Header = () => {
       return (
-        <div>Header</div>
+        <div className='ui fixed menu'>
+            <div className='ui container center'>
+                Trendify
+            </div>
+        </div>
       )
     }
     
