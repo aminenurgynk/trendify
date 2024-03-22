@@ -1,9 +1,8 @@
 import React from "react";
 import {
   Box,
-  Button,
   Card,
-  CardActions,
+  CardActionArea,
   CardContent,
   CardMedia,
   Typography,
@@ -11,6 +10,7 @@ import {
 
 const ProductComponent = ({ product }) => {
   return (
+    <Box onClick={() => console.log(product.title)} sx={{ cursor: 'pointer' }}>
     <Card sx={{
       maxWidth: 345,
       m: 2, 
@@ -18,6 +18,7 @@ const ProductComponent = ({ product }) => {
       display: "flex",
       flexDirection: "column",
     }}>
+    <CardActionArea>
       <Box sx={{ position: 'relative', paddingTop: '100%', height: 0 }}>
         <CardMedia
           component="img"
@@ -43,10 +44,10 @@ const ProductComponent = ({ product }) => {
           ${product.price}
         </Typography>
       </CardContent>
-      <CardActions sx={{ justifyContent: "center", paddingBottom: "16px" }}>
-        <Button size="small">View</Button>
-      </CardActions>
+      </CardActionArea>
+      {/* Removed the View Button */}
     </Card>
+  </Box>
   );
 };
 
