@@ -3,7 +3,7 @@ import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@
 
 const ProductComponent = ({ product }) => {
   return (
-    <Card>
+    <Card sx={{ margin: 2 }}>
     <CardMedia
       component="img"
       height="140"

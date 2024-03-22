@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProducts } from '../redux/actions/productAction';
+import { fetchProducts } from '../../redux/actions/productAction';
 import ProductComponent from './ProductComponent';
 import { Grid } from '@mui/material';
 
