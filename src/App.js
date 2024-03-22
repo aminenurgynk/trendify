@@ -1,4 +1,4 @@
-import Header from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import ProductListing from "./components/product/ProductListing";
 import "./App.css";
 import About from "./components/about/About";
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <div className="App">
-            <Header />
+            <Navbar />
             <About />
             <ProductListing />
             <Footer />

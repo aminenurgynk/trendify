@@ -2,7 +2,7 @@ import { AppBar, IconButton, Menu, MenuItem, Toolbar, Typography } from "@mui/ma
 import MenuIcon from '@mui/icons-material/Menu';
 import React, { useState } from "react";
 
-const Header = () => {
+const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
 
@@ -67,4 +67,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
