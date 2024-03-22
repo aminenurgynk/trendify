@@ -11,6 +11,7 @@ export const fetchProducts = (category = '') => async (dispatch) => {
     console.error("Error fetching products:", error);
   }
 };
+
 export const setProducts = (products) => {
   return {
     type: ActionTypes.SET_PRODUCTS,
