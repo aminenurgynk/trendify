@@ -29,3 +29,20 @@ export const removeSelectedProduct = () => {
     type: ActionTypes.REMOVE_SELECTED_PRODUCT,
   };
 };
+
+export const fetchCategories = () => async (dispatch) => {
+  try {
+    const categories = await apiService.fetchCategories();
+    dispatch(setCategories(categories));
+  } catch (error) {
+    console.error("Error fetching categories:", error);
+  }
+};
+
+export const setCategories = (categories) => {
+  return {
+    type: ActionTypes.SET_CATEGORIES,
+    payload: categories,
+  };
+};
+
