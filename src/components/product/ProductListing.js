@@ -18,8 +18,8 @@ const ProductListing = () => {
       <div style={{ ...theme.mixins.toolbar }} />
       <Container maxWidth={`lg`}>
       <Grid container spacing={2} sx={{ mt: theme.spacing(2) }}>
-        {products.map((product) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
+        {products.map((product, index) => (
+          <Grid item xs={12} sm={6} md={4} lg={3} key={`${product.id}-${index}`}>
             <ProductComponent product={product} />
           </Grid>
         ))}
