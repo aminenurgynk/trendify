@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProductDetail } from '../../redux/actions/productAction';
 import { Container, Card, CardMedia, CardContent, Typography, Rating, Box } from '@mui/material';
-import './ProductDetail.css';
+import './styles/ProductDetail.css';
 
 function ProductDetail() {
   let { productId } = useParams();
