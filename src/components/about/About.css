@@ -1,0 +1,33 @@
+.carousel-slide {
+    position: relative;
+    text-align: center;
+    height: 525px; 
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .carousel-slide img {
+    height: 575px; 
+    object-fit: cover; 
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .carousel-caption h3 {
+    font-size: 1.8em;
+  }
+  
+  .carousel-caption p {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  

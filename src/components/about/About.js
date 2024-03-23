@@ -1,24 +1,60 @@
-// src/components/About.js
 import React from "react";
-import { Typography, Container, useTheme } from "@mui/material";
+import { Carousel } from "antd";
+import "./About.css";
 
-const About = () => {
-
-    const theme = useTheme();
-
+const About = () => { 
   return (
-    <>
-      <div style={{ ...theme.mixins.toolbar }} />
-      <Container sx={{ my: 5 }}>
-        <Typography variant="h4" gutterBottom>
-          About
-        </Typography>
-        <Typography variant="body1">
-          This section contains information about your company or project. You can
-          provide information to visitors about your mission, vision and services.
-        </Typography>
-      </Container>
-    </>
+    <Carousel autoplay>
+      <div className="carousel-slide">
+        <img
+          src="https://static.zarahome.net/8/contentEcom/dto_imagen/home/slider/desktop/Slider_playa.jpg?20240323021206&imformat=chrome&imwidth=1827&impolicy=zarahome-itxmedium"
+          alt="Item 1"
+          className="carousel-img1"
+          width="100%"
+        />
+        <div className="carousel-caption">
+          <h3>Yeni Sezon Modası</h3>
+          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+        </div>
+      </div>
+
+      <div className="carousel-slide">
+        <img
+          src="https://static.pullandbear.net/2/cms/assets/uploads/hstwdsv_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+          alt="Item 1"
+          className="carousel-img1"
+          width="100%"
+        />
+        <div className="carousel-caption">
+          <h3>Yeni Sezon Modası</h3>
+          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+        </div>
+      </div>
+
+      <div className="carousel-slide">
+        <img
+          src="https://static.pullandbear.net/2/cms/assets/uploads/landscape29_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+          alt="Item 1"
+          className="carousel-img1"
+          width="100%"
+        />
+        <div className="carousel-caption">
+          <h3>Yeni Sezon Modası</h3>
+          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+        </div>
+      </div> 
+      
+      <div className="carousel-slide">
+        <img
+          src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
+          alt="Item 2"
+        />
+        <div className="carousel-caption">
+          <h3>Yeni Sezon Modası</h3>
+          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+        </div>
+      </div>
+    </Carousel>
   );
 };
 

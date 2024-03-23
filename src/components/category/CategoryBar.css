@@ -1,0 +1,11 @@
+
+.ButtonGroup-root {
+    border-radius: 20px; 
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .Button-root {
+    transition: background-color 0.3s ease;
+  }
+  

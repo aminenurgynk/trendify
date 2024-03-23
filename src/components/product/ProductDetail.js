@@ -1,9 +1,10 @@
+// ProductDetail.js
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProductDetail } from '../../redux/actions/productAction';
-import { Container } from '@mui/system';
-import { Rating, Typography } from '@mui/material';
+import { Container, Card, CardMedia, CardContent, Typography, Rating, Box } from '@mui/material';
+import './ProductDetail.css'; // Yeni stil dosyasını ekleyin
 
 function ProductDetail() {
   let { productId } = useParams();
@@ -19,14 +20,30 @@ function ProductDetail() {
   }
 
   return (
-    <Container>
-      <Typography variant="h3" component="h1">{productDetail.title}</Typography>
-      <Typography variant="body1">{productDetail.description}</Typography>
-      <Rating name="read-only" value={productDetail.rating} readOnly />
-      
-      </Container>
-
-
+    <Container maxWidth="md" sx={{ mt: 4 }}>
+      <Card sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' } }}>
+        <CardMedia
+          component="img"
+          sx={{ width: { xs: '100%', sm: 360 }, height: { xs: 300, sm: 'auto' } }}
+          image={productDetail.image}
+          alt={productDetail.title}
+        />
+        <Box sx={{ display: 'flex', flexDirection: 'column', flex: '1' }}>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              {productDetail.title}
+            </Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+              {productDetail.description}
+            </Typography>
+            <Typography variant="h6" sx={{ mb: 2 }}>
+              ${productDetail.price}
+            </Typography>
+            <Rating name="read-only" value="2.5" precision={0.5} readOnly />
+          </CardContent>
+        </Box>
+      </Card>
+    </Container>
   );
 }
 

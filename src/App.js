@@ -5,11 +5,13 @@ import Footer from "./components/footer/Footer";
 import CategoryBar from "./components/category/CategoryBar";
 import { Routes, Route } from "react-router-dom";
 import ProductDetail from "./components/product/ProductDetail";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <div className="App">
+      <div>
+      <Navbar />
         <Routes>
           <Route path="/" element={<Layout />} />
           <Route path="/product/:productId" element={<ProductDetail />} />

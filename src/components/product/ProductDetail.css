@@ -1,0 +1,19 @@
+/* ProductDetail.css */
+.MuiCard-root {
+    margin-top: 20px;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .MuiCard-root:hover {
+    box-shadow: 0px 8px 26px -5px rgba(0,0,0,0.75);
+  }
+  
+  .MuiRating-root {
+    color: #ff6d00;
+  }
+  
+  .MuiTypography-root {
+    line-height: 1.6;
+  }
+  
