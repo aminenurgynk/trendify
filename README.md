@@ -2,7 +2,6 @@
 
 Welcome to Trendify, a cutting-edge e-commerce platform offering the latest in fashion. This application brings together a seamless shopping experience with a modern, user-friendly interface.
 
-![Trendify Home](path_to_your_image/home_page.png)
 
 ## Features
 
@@ -31,7 +30,6 @@ This project incorporates thorough testing to ensure reliability and stability:
 
 Design mockups were created using Figma, which guided the UI/UX of the application.
 
-![Design Mockup](../trendify/public/assets/image/Screenshot.png)
 
 ## Quick Start
 
