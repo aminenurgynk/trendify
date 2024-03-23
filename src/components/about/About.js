@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "antd";
 import "./About.css";
 
-const About = () => { 
+const About = () => {
   return (
     <Carousel autoplay>
       <div className="carousel-slide">
@@ -13,8 +13,8 @@ const About = () => {
           width="100%"
         />
         <div className="carousel-caption">
-          <h3>Yeni Sezon Modası</h3>
-          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+          <h3>New Season Fashion</h3>
+          <p>Discover the Spring / Summer '24 collection.</p>
         </div>
       </div>
 
@@ -26,8 +26,8 @@ const About = () => {
           width="100%"
         />
         <div className="carousel-caption">
-          <h3>Yeni Sezon Modası</h3>
-          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+          <h3>New Season Fashion</h3>
+          <p>Discover the Spring / Summer '24 collection.</p>
         </div>
       </div>
 
@@ -39,19 +39,19 @@ const About = () => {
           width="100%"
         />
         <div className="carousel-caption">
-          <h3>Yeni Sezon Modası</h3>
-          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+          <h3>New Season Fashion</h3>
+          <p>Discover the Spring / Summer '24 collection.</p>
         </div>
-      </div> 
-      
+      </div>
+
       <div className="carousel-slide">
         <img
           src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
           alt="Item 2"
         />
         <div className="carousel-caption">
-          <h3>Yeni Sezon Modası</h3>
-          <p>İlkbahar / Yaz '24 koleksiyonunu keşfedin.</p>
+          <h3>New Season Fashion</h3>
+          <p>Discover the Spring / Summer '24 collection.</p>
         </div>
       </div>
     </Carousel>

@@ -1,4 +1,3 @@
-// src/components/category/CategoryBar.js
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCategories, fetchProducts } from '../../redux/actions/productAction';

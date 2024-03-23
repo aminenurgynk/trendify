@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar"
+  >
+    <div
+      class="navbar-logo"
+    >
+      Trendify
+    </div>
+    <div
+      class="navbar-links"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        href="/"
+      >
+        Products
+      </a>
+      <a
+        href="/"
+      >
+        Contacts
+      </a>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

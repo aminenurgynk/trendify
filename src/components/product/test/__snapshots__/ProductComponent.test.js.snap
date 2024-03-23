@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductComponent Snapshot renders correctly 1`] = `
+<div
+  className="MuiBox-root css-4g6ai3"
+  onClick={[Function]}
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-h1m5k6-MuiPaper-root-MuiCard-root"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root"
+      disabled={false}
+      onBlur={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div
+        className="MuiBox-root css-1fnpb0f"
+      >
+        <img
+          alt="Test Product"
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1qd1w3y-MuiCardMedia-root"
+          src="test-image.jpg"
+        />
+      </div>
+      <div
+        className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+      >
+        <div
+          className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom MuiTypography-noWrap css-d5bee8-MuiTypography-root"
+        >
+          Test Product
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          $
+          100
+        </p>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+      />
+    </button>
+  </div>
+</div>
+`;

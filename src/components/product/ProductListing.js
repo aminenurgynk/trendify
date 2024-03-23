@@ -38,7 +38,7 @@ const ProductListing = () => {
           onChange={paginate}
           total={products.length}
           pageSize={productsPerPage}
-          showSizeChanger={false} // if you do not want to allow changing number of items per page
+          showSizeChanger={false}
         />
       </Container>
     </>

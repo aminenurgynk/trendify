@@ -1,0 +1,677 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-carousel css-dev-only-do-not-override-djtmh8"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="-1"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 2"
+                  src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.zarahome.net/8/contentEcom/dto_imagen/home/slider/desktop/Slider_playa.jpg?20240323021206&imformat=chrome&imwidth=1827&impolicy=zarahome-itxmedium"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/hstwdsv_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/landscape29_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 2"
+                  src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="4"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.zarahome.net/8/contentEcom/dto_imagen/home/slider/desktop/Slider_playa.jpg?20240323021206&imformat=chrome&imwidth=1827&impolicy=zarahome-itxmedium"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="5"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/hstwdsv_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="6"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/landscape29_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="7"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 2"
+                  src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="slick-dots slick-dots-bottom"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <button>
+            1
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            2
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            3
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            4
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should render the About component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-carousel css-dev-only-do-not-override-djtmh8"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="-1"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 2"
+                  src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.zarahome.net/8/contentEcom/dto_imagen/home/slider/desktop/Slider_playa.jpg?20240323021206&imformat=chrome&imwidth=1827&impolicy=zarahome-itxmedium"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/hstwdsv_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/landscape29_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 2"
+                  src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="4"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.zarahome.net/8/contentEcom/dto_imagen/home/slider/desktop/Slider_playa.jpg?20240323021206&imformat=chrome&imwidth=1827&impolicy=zarahome-itxmedium"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="5"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/hstwdsv_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="6"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 1"
+                  class="carousel-img1"
+                  src="https://static.pullandbear.net/2/cms/assets/uploads/landscape29_1.jpg?imwidth=1500&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20240323020706"
+                  width="100%"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide slick-cloned"
+            data-index="7"
+            style="width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="carousel-slide"
+                style="width: 100%; display: inline-block;"
+                tabindex="-1"
+              >
+                <img
+                  alt="Item 2"
+                  src="https://st-levis.mncdn.com/Content/img/Unisite/web.jpg"
+                />
+                <div
+                  class="carousel-caption"
+                >
+                  <h3>
+                    New Season Fashion
+                  </h3>
+                  <p>
+                    Discover the Spring / Summer '24 collection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="slick-dots slick-dots-bottom"
+        style="display: block;"
+      >
+        <li
+          class="slick-active"
+        >
+          <button>
+            1
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            2
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            3
+          </button>
+        </li>
+        <li
+          class=""
+        >
+          <button>
+            4
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

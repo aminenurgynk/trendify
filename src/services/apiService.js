@@ -6,15 +6,8 @@ export const fetchProducts = async (endpoint = `/products`) => {
   try {
     const response = await axios.get(`${API_BASE_URL}${endpoint}`);
     const originalProducts = response.data;
-    let newId = originalProducts.length;
-
-    const duplicatedProducts = originalProducts.map(product => {
-      const newProduct = {...product, id: ++newId}; 
-      return newProduct;
-    });
-    const combinedProducts = [...originalProducts, ...duplicatedProducts];
     
-    return combinedProducts;
+    return originalProducts;
   } catch (error) {
     console.error('Error fetching products:', error);
     throw error;

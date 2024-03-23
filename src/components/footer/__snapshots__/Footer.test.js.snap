@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-12i9eq0-MuiContainer-root"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-1vl95ex-MuiTypography-root"
+    >
+      © 2024 Trendify. All rights reserved.
+    </p>
+  </div>
+</DocumentFragment>
+`;
