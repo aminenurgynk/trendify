@@ -48,3 +48,19 @@ export const setCategories = (categories) => {
   };
 };
 
+export const fetchProductDetail = (id) => async (dispatch) => {
+  try {
+    const response = await apiService.fetchProductDetails(id);
+    dispatch(setSelectedProduct(response));
+  } catch (error) {
+    console.error("Error fetching product detail:", error);
+  }
+};
+
+export const setSelectedProduct = (product) => {
+  return {
+    type: ActionTypes.SELECTED_PRODUCT,
+    payload: product,
+  };
+};
+

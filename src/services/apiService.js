@@ -13,6 +13,7 @@ export const fetchProducts = async (endpoint = `/products`) => {
       return newProduct;
     });
     const combinedProducts = [...originalProducts, ...duplicatedProducts];
+    
     return combinedProducts;
   } catch (error) {
     console.error('Error fetching products:', error);

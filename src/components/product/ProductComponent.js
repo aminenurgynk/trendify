@@ -10,7 +10,7 @@ import {
 
 const ProductComponent = ({ product }) => {
   return (
-    <Box onClick={() => console.log(product.title)} sx={{ cursor: 'pointer' }}>
+    <Box onClick={() => window.location.href = `/product/${product.id}`} sx={{ cursor: 'pointer' }}>
     <Card sx={{
       maxWidth: 345,
       m: 2, 

@@ -1,15 +1,33 @@
-import React from "react";
-import { Rating, Typography } from "@mui/material";
+import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchProductDetail } from '../../redux/actions/productAction';
+import { Container } from '@mui/system';
+import { Rating, Typography } from '@mui/material';
 
-const ProductDetail = ({ product }) => {
+function ProductDetail() {
+  let { productId } = useParams();
+  const dispatch = useDispatch();
+  const productDetail = useSelector((state) => state.product);
+
+  useEffect(() => {
+    if (productId && productId !== "") dispatch(fetchProductDetail(productId));
+  }, [productId, dispatch]);
+
+  if (!productDetail) {
+    return <p>Product not found</p>;
+  }
+
   return (
-    <div>
-      <Typography variant="body2" color="text.secondary">
-        {product.description}
-      </Typography>
-      <Rating name="read-only" value={product.rating} readOnly />
-    </div>
+    <Container>
+      <Typography variant="h3" component="h1">{productDetail.title}</Typography>
+      <Typography variant="body1">{productDetail.description}</Typography>
+      <Rating name="read-only" value={productDetail.rating} readOnly />
+      
+      </Container>
+
+
   );
-};
+}
 
 export default ProductDetail;
