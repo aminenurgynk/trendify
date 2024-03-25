@@ -2,6 +2,8 @@
 
 Welcome to Trendify, a cutting-edge e-commerce platform offering the latest in fashion. This application brings together a seamless shopping experience with a modern, user-friendly interface.
 
+Visit it! https://trendify-demo.web.app/
+
 
 ## Features
 
